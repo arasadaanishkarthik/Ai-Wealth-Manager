@@ -1,24 +1,39 @@
-# 💰 AI Wealth Navigator — Before You Spend, Save, Invest, or Build, See the Impact.
+# 💰 AI Wealth Manager — Make Smarter Financial Decisions
 
-## 🚀 About the Project
+🚀 **Live Demo:** [Open AI Wealth Manager](https://arasadaanishkarthik.github.io/Ai-Wealth-Manager/#/dashboard)
 
-**AI Wealth Navigator** is an AI-powered financial wellness and decision-support platform designed to help users make more informed financial decisions. Instead of simply displaying balances and expenses, the application helps users explore what-if scenarios, understand the potential impact of spending decisions, track financial goals, and evaluate illustrative investment opportunities. It combines financial dashboards, goal planning, lifestyle impact analysis, risk exploration, and an AI Wealth Assistant into one interactive experience. The platform follows a human-centered approach: **AI recommends, but the user makes the final decision.**
+📂 **GitHub Repository:** [Ai-Wealth-Manager](https://github.com/arasadaanishkarthik/Ai-Wealth-Manager)
+
+## 🏷️ Badges
+
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?logo=javascript&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-Build%20Tool-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwindcss&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-Cloud%20Architecture-FF9900?logo=amazonaws&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/Deployment-GitHub%20Pages-222222?logo=github&logoColor=white)
+
+## 🌟 About the Project
+
+**AI Wealth Manager** is an interactive financial planning and decision-support application designed to help users understand their finances and make more informed decisions. It brings financial dashboards, goal planning, spending simulations, investment scenarios, and AI-assisted guidance into one experience. Users can explore hypothetical financial situations, evaluate trade-offs, and understand how different decisions may affect their financial goals. The project focuses on making financial planning more accessible through an intuitive interface and an AI-assisted approach.
 
 ## ✨ Key Features
 
-- 📊 **Financial Dashboard** — View income, essential expenses, savings, emergency funds, and available financial capacity.
-- 🎯 **Goal Planner** — Create financial goals, monitor progress, and explore projected timelines.
-- 🔮 **What-If Simulator** — Experiment with savings and spending changes to understand their potential financial impact.
-- 🛍️ **Lifestyle Impact Analysis** — Explore how vacations, shopping, dining, and entertainment can affect financial goals.
-- 📈 **Risk & Investment Explorer** — Compare illustrative investment scenarios across conservative, moderate, and higher-risk profiles.
-- 🚀 **Startup Lab** — Explore synthetic startup concepts and compare potential Invest vs. Build scenarios.
-- 🤖 **AI Wealth Assistant** — Explore financial questions and receive simulated conversational guidance.
-- 📝 **Action Plan** — Review recommendations and choose to approve, modify, or reject them.
-- 👤 **User Profile** — Access the profile and onboarding sections.
+- 📊 **Financial Dashboard** — Explore financial summaries, savings, expenses, and financial capacity.
+- 🎯 **Financial Goal Planner** — Set financial goals and explore potential progress.
+- 🔮 **What-If Simulator** — Evaluate hypothetical spending and saving decisions.
+- 🛍️ **Lifestyle Impact Analysis** — Explore how lifestyle expenses can affect financial goals.
+- 📈 **Risk & Investment Explorer** — Compare illustrative investment scenarios and risk profiles.
+- 🚀 **Startup Lab** — Explore startup concepts and hypothetical investment or business-building scenarios.
+- 🤖 **AI Wealth Assistant** — Interact with the assistant to explore financial questions.
+- 📝 **Action Plan** — Review recommendations and decide whether to approve, modify, or reject them.
+- 👤 **User Profile** — Access profile-related information.
 - 🔔 **Notifications** — Access the application's notification interface.
-- ⚙️ **Settings & Help** — Navigate the application's settings and help sections.
-- 📉 **Interactive Data Visualization** — Present financial information through charts and visual components.
-- 🎨 **Modern User Interface** — Built with reusable React components, responsive styling, and animations.
+- ⚙️ **Settings & Help** — Navigate settings and help sections.
+- 📉 **Interactive Visualizations** — Explore financial information through charts and visual components.
+- 🎨 **Modern UI** — A clean, interactive interface designed for an engaging financial planning experience.
+
+> **Note:** Features involving AI, financial calculations, or persistent data may depend on the implementation available in the current version. Verify the live application before relying on any financial output.
 
 ## 🛠️ Tech Stack
 
@@ -26,18 +41,18 @@
 
 - **React** — Component-based user interface.
 - **JavaScript / JSX** — Application logic and interactive components.
-- **Vite** — Development server and production build tooling.
+- **Vite** — Frontend development and build tooling.
 - **Tailwind CSS** — Utility-first styling.
 - **React Router** — Client-side navigation.
-- **Recharts** — Financial charts and data visualization.
-- **Framer Motion** — UI animations and transitions.
+- **Recharts** — Financial data visualization.
+- **Framer Motion** — Animations and transitions.
 - **Lucide React** — Icons.
 
-### Planned Cloud Architecture
+### Cloud Architecture
 
-The project's documented target architecture includes the following AWS services:
+The project's planned cloud architecture includes:
 
-- **Amazon S3** — Static application hosting and object storage.
+- **Amazon S3** — Static asset hosting.
 - **Amazon CloudFront** — Content delivery.
 - **Amazon API Gateway** — API access layer.
 - **AWS Lambda** — Serverless backend processing.
@@ -46,41 +61,41 @@ The project's documented target architecture includes the following AWS services
 - **Amazon Cognito** — Authentication and user management.
 - **Amazon CloudWatch** — Monitoring and logging.
 
-> **Note:** These AWS services describe the target architecture. The current MVP primarily demonstrates the frontend experience using synthetic financial data and simulated AI behavior.
+> The AWS services listed above describe the planned architecture; their inclusion does not imply that every service is currently deployed or integrated into the live application.
 
 ### CI/CD
 
 - GitHub
 - GitHub Actions
+- GitHub Pages
 
 ## 📁 Project Structure
+
+The repository includes project documentation and source-code deliverables organized around the following areas:
 
 ```text
 Ai-Wealth-Manager/
 │
 ├── Architecture_Document/
-│   └── # Architecture documentation
+│   └── Architecture documentation
 │
 ├── CI_CD_Pipeline/
-│   └── # CI/CD documentation and workflow configuration
+│   └── CI/CD pipeline documentation and configuration
 │
 ├── Demo_Video/
-│   └── # Project demonstration video
+│   └── Project demonstration materials
 │
 ├── Deployment_Guide/
-│   └── # Deployment instructions
+│   └── Deployment instructions
 │
 ├── Presentation_Deck/
-│   └── # Project presentation
+│   └── Project presentation
 │
 ├── Source_Code/
-│   └── # Application source code
+│   └── Application source code
 │
 ├── .gitignore
-│   └── # Git exclusion rules
-│
-├── README(20260922-103630).md
-│   └── # Existing project documentation
+│   └── Git exclusion rules
 │
 └── README.md
-    └── # Main project documentation
+    └── Project documentation
